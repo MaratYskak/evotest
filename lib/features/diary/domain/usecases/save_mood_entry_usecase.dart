@@ -3,12 +3,12 @@ import 'package:evotest/core/error/failures.dart';
 import 'package:evotest/features/diary/domain/entities/mood_entity.dart';
 import 'package:evotest/features/diary/domain/repository/mood_repository.dart';
 
-class GetMoodEntriesUsecase {
+class SaveMoodEntryUsecase {
   final MoodRepository repository;
 
-  GetMoodEntriesUsecase({required this.repository});
+  SaveMoodEntryUsecase({required this.repository});
 
-  Future<Either<Failure, List<MoodEntity>>> call() {
-    return repository.getMoodEntries();
+  Future<Either<Failure, MoodEntity>> call(MoodEntity mood) async {
+    return await repository.saveMoodEntry(mood);
   }
 }

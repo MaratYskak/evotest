@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
-import 'package:tryevo/core/error/failures.dart';
-import 'package:tryevo/features/diary/domain/entities/mood_entity.dart';
+import 'package:evotest/core/error/failures.dart';
+import 'package:evotest/features/diary/domain/entities/mood_entity.dart';
 
 abstract class MoodRepository {
   Future<Either<Failure, MoodEntity>> saveMoodEntry(MoodEntity mood);
