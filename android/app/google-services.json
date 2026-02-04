@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "86031380665",
+    "project_id": "evotest-e8a69",
+    "storage_bucket": "evotest-e8a69.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:86031380665:android:61c743d12a2b66c464ab68",
+        "android_client_info": {
+          "package_name": "com.example.evotest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDOAweC0DQMUjpgzvCKfbgQ_Cq4po9XzNw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
